@@ -1,0 +1,7 @@
+Flask==0.11.1
+requests==2.9.1
+docker-py==1.8.1
+elasticsearch-dsl>=2.0.0,<3.0.0
+pyzmq==15.3.0
+envoy==0.0.3
+elasticsearch==2.3.0

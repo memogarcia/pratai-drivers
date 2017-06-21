@@ -1,0 +1,8 @@
+FROM pratai/python27:latest
+MAINTAINER Memo Garcia <sirmemogarcia@gmail.com>
+RUN wget {zip_location}
+RUN unzip {zip_file}
+RUN pip install -r requirements.txt
+RUN cp new_module.py /etc/pratai/
+USER pratai
+CMD ["python", "server.py"]
